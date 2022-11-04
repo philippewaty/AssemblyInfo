@@ -33,7 +33,7 @@ namespace AssemblyInfo
       _objParentAssembly = ParentAssembly();
     }
 
-    public String GetTitle
+    public String Title
     {
       get
       {
@@ -46,7 +46,7 @@ namespace AssemblyInfo
       }
     }
 
-    public string GetDescription
+    public string Description
     {
       get
       {
@@ -55,7 +55,7 @@ namespace AssemblyInfo
       }
     }
 
-    public string GetCompany
+    public string Company
     {
       get
       {
@@ -64,7 +64,7 @@ namespace AssemblyInfo
       }
     }
 
-    public string GetProduct
+    public string Product
     {
       get
       {
@@ -73,7 +73,7 @@ namespace AssemblyInfo
       }
     }
 
-    public string GetCopyright
+    public string Copyright
     {
       get
       {
@@ -82,7 +82,7 @@ namespace AssemblyInfo
       }
     }
 
-    public string GetVersion
+    public string Version
     {
       get
       {
@@ -92,7 +92,7 @@ namespace AssemblyInfo
     }
 
     // https://visualstudiomagazine.com/articles/2016/12/01/assembly-by-name-and-number.aspx#:~:text=The%20location%20of%20the%20assembly%27s%20version%20number%20appears,for%20the%20Major%2C%20Minor%2C%20Build%20and%20Revision%20values%3A
-    public System.Version GetFullVersion
+    public System.Version FullVersion
     {
       get
       {
@@ -101,7 +101,7 @@ namespace AssemblyInfo
       }
     }
 
-    public string GetTrademark
+    public string Trademark
     {
       get
       {
@@ -109,7 +109,7 @@ namespace AssemblyInfo
         return value;
       }
     }
-    public string GetFramework
+    public string Framework
     {
       get
       {

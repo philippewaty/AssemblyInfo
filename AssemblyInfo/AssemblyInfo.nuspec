@@ -1,15 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package >
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>PW.AssemblyInfo</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>AssemblyInfo</title>
     <authors>Philippe Waty</authors>
+    <owners></owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/philippewaty/AssemblyInfo</projectUrl>
     <description>Library returning assembly info of the parent assembly</description>
-    <releaseNotes>First version 04/11/2022</releaseNotes>
+    <releaseNotes>- 1.0.1 (04/11/2022)
+Refactor properties names
+
+- 1.0.0 First version 04/11/2022</releaseNotes>
     <copyright>Copyright © Philippe Waty 2022</copyright>
     <tags>assembly information</tags>
     <dependencies>

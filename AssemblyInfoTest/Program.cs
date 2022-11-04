@@ -7,15 +7,15 @@ namespace AssemblyInfoTest
     static void Main(string[] args)
     {
       AssemblyInfo.AssemblyInfo assemblyInfo = new AssemblyInfo.AssemblyInfo();
-      Console.WriteLine($"Title={assemblyInfo.GetTitle}");
-      Console.WriteLine($"Description={assemblyInfo.GetDescription}");
-      Console.WriteLine($"Company={assemblyInfo.GetCompany}");
-      Console.WriteLine($"Product={assemblyInfo.GetProduct}");
-      Console.WriteLine($"Copyright={assemblyInfo.GetCopyright}");
-      Console.WriteLine($"Version={assemblyInfo.GetVersion}");
-      Console.WriteLine($"Full version = Major:{assemblyInfo.GetFullVersion.Major}, Minor:{assemblyInfo.GetFullVersion.Minor}, Revision:{assemblyInfo.GetFullVersion.Revision}");
-      Console.WriteLine($"Trademark={assemblyInfo.GetTrademark}");
-      Console.WriteLine($"Framework={assemblyInfo.GetFramework}");
+      Console.WriteLine($"Title={assemblyInfo.Title}");
+      Console.WriteLine($"Description={assemblyInfo.Description}");
+      Console.WriteLine($"Company={assemblyInfo.Company}");
+      Console.WriteLine($"Product={assemblyInfo.Product}");
+      Console.WriteLine($"Copyright={assemblyInfo.Copyright}");
+      Console.WriteLine($"Version={assemblyInfo.Version}");
+      Console.WriteLine($"Full version = Major:{assemblyInfo.FullVersion.Major}, Minor:{assemblyInfo.FullVersion.Minor}, Revision:{assemblyInfo.FullVersion.Revision}");
+      Console.WriteLine($"Trademark={assemblyInfo.Trademark}");
+      Console.WriteLine($"Framework={assemblyInfo.Framework}");
       Console.ReadKey();
     }
   }
