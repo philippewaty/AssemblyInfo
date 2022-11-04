@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>PW.AssemblyInfo</id>
+    <version>1.0.0</version>
+    <title>AssemblyInfo</title>
+    <authors>Philippe Waty</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/philippewaty/AssemblyInfo</projectUrl>
+    <description>Library returning assembly info of the parent assembly</description>
+    <releaseNotes>First version 04/11/2022</releaseNotes>
+    <copyright>Copyright © Philippe Waty 2022</copyright>
+    <tags>assembly information</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="lib\net45\AssemblyInfo.dll" target="lib\net45\AssemblyInfo.dll" />
+  </files>
+</package>
