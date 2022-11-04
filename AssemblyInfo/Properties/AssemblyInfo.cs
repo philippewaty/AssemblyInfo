@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("AssemblyInfo")]
 [assembly: AssemblyDescription("Library returning assembly info of the parent assembly")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Philippe Waty")]
 [assembly: AssemblyProduct("AssemblyInfo")]
 [assembly: AssemblyCopyright("Copyright © Philippe Waty 2022")]
 [assembly: AssemblyTrademark("")]
