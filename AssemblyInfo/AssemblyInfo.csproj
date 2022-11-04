@@ -45,4 +45,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /Y /E /R "$(TargetDir)AssemblyInfo.dll" "$(ProjectDir)lib\net45\"</PostBuildEvent>
+  </PropertyGroup>
 </Project>
