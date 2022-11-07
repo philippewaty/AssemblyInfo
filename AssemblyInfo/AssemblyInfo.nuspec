@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>PW.AssemblyInfo</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>AssemblyInfo</title>
     <authors>Philippe Waty</authors>
     <owners></owners>
@@ -10,7 +10,10 @@
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/philippewaty/AssemblyInfo</projectUrl>
     <description>Library returning assembly info of the parent assembly</description>
-    <releaseNotes>- 1.0.1 (04/11/2022)
+    <releaseNotes>- 1.0.2 (07/11/2022)
+Refactor to static methods
+
+- 1.0.1 (04/11/2022)
 Refactor properties names
 
 - 1.0.0 First version 04/11/2022</releaseNotes>

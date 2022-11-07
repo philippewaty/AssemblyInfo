@@ -6,3 +6,4 @@ AssemblyInfoTest/obj
 bin/AssemblyInfo.dll
 AssemblyInfo/lib/net45/AssemblyInfo.dll
 bin/AssemblyInfo.pdb
+*.pdb
