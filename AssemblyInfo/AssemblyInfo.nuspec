@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>PW.AssemblyInfo</id>
+    <id>pwAssemblyInfo</id>
     <version>1.0.2</version>
     <title>AssemblyInfo</title>
     <authors>Philippe Waty</authors>
